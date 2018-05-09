@@ -5,7 +5,7 @@ type: about
 
 # 郝旭政
 
-`硕士应届生  `   `C++11`   `深度学习`   `男`   `汉`   `hxzway@gmail.com`   `17695458579`
+`硕士应届生`   `C++11`   `深度学习`   `男`   `汉`   `hxzway@gmail.com`   `17695458579`
 
 ## 教育背景
 
@@ -24,7 +24,7 @@ type: about
 基于改进的深度残差网络的行人检测方法设计   `硕士阶段研究方向`&nbsp;&nbsp;&nbsp;&nbsp;*2017.02 - 2017.08*
 
 - 项目描述：针对行人特征改进分类网络，完善模型训练方法，改进YOLO提高准确度。
-- 主要技术：`Darknet `   `Resnetv2`   `YOLOv2`   `Linux C`   `Python`   `Eclipse`
+- 主要技术：`Darknet`   `Resnetv2`   `YOLOv2`   `Linux C`   `Python`   `Eclipse`
 
 CMOS摄像头测试软件开发&nbsp;&nbsp;&nbsp;&nbsp;*2013.05 - 2014.03* 
 
