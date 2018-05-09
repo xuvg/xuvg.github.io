@@ -9,9 +9,10 @@ categories:
 ---
 
 
-#C++ Primer Ch1-Ch3
+# C++ Primer Ch1-Ch3
 @(Coding)[笔记, C++]
-##第一章 开始
+
+## 第一章 开始
 1. 
 ```c++
 int main(){
@@ -52,7 +53,7 @@ item.isbn()
 //类对象item 点运算符. 成员函数isbn 调用运算符()
 ```
 
-##第二章 变量和基本类型
+## 第二章 变量和基本类型
 1. 数据类型：数据的意义和可执行的操作
 
 2. 基本数据类型：算数类型 空类型
@@ -206,6 +207,7 @@ int *ptri = &i;
 int **ppi = &ptri;	//指向指针的指针
 int *&ptoi = ptri;	//指向指针的引用
 ```
+
 17. const限定符
 
 const变量的值不被改变，但在工程中意义明显且方便修改。
@@ -482,8 +484,8 @@ dataset INRIA， COCO;
 
 ch2 end
 
-##第三章 字符串、向量和数组
-###3.1 命名空间的using声明
+## 第三章 字符串、向量和数组
+### 3.1 命名空间的using声明
 [**using**关键字](https://www.zhihu.com/question/26911239)
 原则上多使用using命令`using std::cin`，尽量避免using编译命令`using namespace std;`
 using声明形式
@@ -655,5 +657,5 @@ for(decltype(s.size()) index =0; index != s.size() && !isspace(s[index])；++ind
 
 无论合适使用字符串的下标,需检查下标变量的合法性 - string::size_type无符号性质
 
-###3.3 标准库类型 vector
+### 3.3 标准库类型 vector
 
