@@ -221,6 +221,7 @@ int *ptri = &i;
 int **ppi = &ptri;	//指向指针的指针
 int *&ptoi = ptri;	//指向指针的引用
 ```
+.
 
 17. const限定符
 
@@ -317,7 +318,9 @@ const int *const p1 = nullptr;	//左侧const为底层，右侧const为顶层
 底层const在初始化时可以用同类型的非const对象
 用于声明引用的const都是底层const
 
+
 19. constexpr和常量表达式
+
 **常量表达式**  变量值不会改变且在编译过程过程中就能得到计算结果的表达式。是否为常量表达式由数据类型+初始值共同决定
 
 ```
