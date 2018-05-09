@@ -216,22 +216,15 @@ const变量必须初始化，可以是任意复杂表达式。
 const与初始化:
 const限制了只能在const对象上执行不改变其内容的的操作，但对初始化const变量的的表达式没有const变量的规定。但是要保证初始化const变量的表达式的类型必须与const限定的变量本身的类型一致，否则编译器会产生临时量。
 
-a. 
 ```
 int ival = 1;
 const int &refval = ival;	//合法
-```
 
-b. 
-```
 double dval = 3.14;
 const int &refval = dval;
-```
 
 等价于：
 
-c. 
-```
 double dval = 3.14;
 int temp = dval;	//临时量
 int &refval = temp;	//通过引用修改dval时不可能实现
@@ -481,8 +474,6 @@ dataset INRIA， COCO;
 
 - 预处理变量唯一。通常的做法：基于头文件中类的名字构建头文件保护符的名字
 - 预处理变量的名字全部大写，避免与其他实体命名冲突
-
-ch2 end
 
 ## 第三章 字符串、向量和数组
 ### 3.1 命名空间的using声明
