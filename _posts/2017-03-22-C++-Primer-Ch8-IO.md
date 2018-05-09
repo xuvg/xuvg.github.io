@@ -9,10 +9,11 @@ categories:
 ---
 
 
-#第八章 IO库
+# 第八章 IO库
 @(Coding)[C++, 笔记, C++ Primer]
-##8.1 IO类
-##8.2 文件输入输出
+
+## 8.1 IO类
+## 8.2 文件输入输出
 `fstream`文件IO
 1. `ifstream` 从文件读取数据
 2. `ofstream'`向文件写入数据
@@ -48,7 +49,7 @@ in.open(infile + "2");
 ```
 当一个fstream对象被销毁时,会自动调用close
 
-###8.2.2 文件模式
+### 8.2.2 文件模式
 ```
 in 以读方式打开,仅ifstream和fstream对象可用
 out 以写方式打开,仅ofstream和fstream对象可用,默认截断打开文件,需同时指定app模式或同时指定in模式
@@ -64,7 +65,7 @@ fstream的默认模式为in和out
 out模式会丢弃已有数据
 每次open都会确认文件模式,默认为输出和截断
 
-##8.3 string流
+## 8.3 string流
 头文件sstream: istringsream从string读入数据, ostringsream向string写入数据, stringsream两者皆可
 特定的IO操作:
 ```
@@ -74,7 +75,7 @@ strm.str();		///返回sstream所保存的string的拷贝
 strm.str(s);	///将string s拷贝到strm中,返回值void
 ```
 
-###8.3.1 使用istringstream
+### 8.3.1 使用istringstream
 ```
 struct PersonInfo{
 string name;
@@ -93,7 +94,7 @@ people.push_back(info);
 }
 ```
 
-###8.3.2 使用ostringstream
+### 8.3.2 使用ostringstream
 ```
 for(const auto &entry : people){
 	ostringstream formatted, badNums;
